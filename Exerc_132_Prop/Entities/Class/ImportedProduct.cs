@@ -23,7 +23,7 @@ namespace Exerc_132_Prop.Entities.Class
             return Price + CustomsFee;
         }
 
-        public override string PriceTag()
+        public sealed override string PriceTag()
         {
             return base.PriceTag() + " (Customs fee: $ " + CustomsFee + ")";
         }
