@@ -20,10 +20,10 @@ namespace Exerc_132_Prop.Entities.Class
             Price = price;
         }
 
-
         public string PriceTag()
         {
             return Name + " $ " + Price;
         }
+
     }
 }
